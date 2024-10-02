@@ -1,0 +1,26 @@
+{% extends "_base.html" %}
+
+{% block title %}{{ verse.blurb }}{% endblock title %}
+
+{% block content %}
+<br>
+<p style="font-size: 1.25rem;">Verse</p>
+<figure>
+    <blockquote class="blockquote">
+        <pre><span class="verse-display">{{ verse.text }}</span></pre>
+    </blockquote>
+    <figcaption class="blockquote-footer py-2 px-2" style="font-size: .9rem;">
+        Recited by {% for name in verse.speaker.all %}<a href="{% url 'character_detail' name.id %}" style="color: black;">{{ name }}</a>, {% endfor %}in <span class="title">{{ verse.get_book_display }},</span> {% if verse.sub_book %}Book {{ verse.sub_book }}, {% endif %}Chapter {{verse.chapter }}, Page {{ verse.page }}
+    </figcaption>
+</figure>
+<hr>
+<p><span style="font-size: 1.25rem;">Context</span><br>
+{{ verse.context }}</p>
+<footer class="footer mt-auto py-3">
+      <span class="text-muted">Page numbers are taken from: <br> 
+        {% if verse.book == 'FR' %}Tolkien, J. R. R. 2021. <span class="title">The Lord of the Rings Illustrated</span>. William Morrow & Company.{% endif %}</span>
+  </footer>
+  <br>
+  <p><a href="{% url 'verses_list' %}">Back to full list of verses</a></p>
+
+{% endblock content %}

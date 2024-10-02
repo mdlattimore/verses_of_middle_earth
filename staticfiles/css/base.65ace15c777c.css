@@ -1,0 +1,58 @@
+/* static/css/base.css */
+
+body {
+  min-height: 75rem;
+  padding-top: 4.5rem;
+  background-color: #FCF5E5;
+}
+
+img.bookcover {
+  height: 300px;
+  width: auto;
+}
+
+.verse-display {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1rem;
+}
+
+.title {
+  font-style: italic;
+}
+
+.blockquote {
+  font-style: italic;
+}
+
+.display-6 {
+  font-size: 1.75rem;
+  color: inherit;
+}
+
+.character_picture {
+  height: 300px;
+  width: auto;
+}
+
+#tldr {
+  background-color: #dccfb1;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.invisible-link {
+  color: transparent;    /* Make the text color invisible */
+  background-color: transparent;  /* Make the background invisible */
+  border: none;          /* Remove any border that might be applied */
+  text-decoration: none;  /* Remove underline if necessary */
+  cursor: pointer;        /* Ensure it's still clickable */
+}
+.invisible-link:hover {
+  color: transparent;     /* Keep it invisible even when hovered */
+}
+
+blockquote {
+  padding-left: 5%;
+  padding-right: 5%;
+  font-style: italic;
+}

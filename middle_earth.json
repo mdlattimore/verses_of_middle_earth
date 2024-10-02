@@ -1,0 +1,530 @@
+[
+    {
+        "model": "middle_earth.character",
+        "pk": 1,
+        "fields": {
+            "name": "Bilbo Baggins",
+            "aka": null,
+            "race": "Hobbit",
+            "description": "",
+            "picture": "character_pictures/bilbo_baggins.webp",
+            "picture_credit": "\"Bilbo Baggins\" by Mike Szabados"
+        }
+    },
+    {
+        "model": "middle_earth.character",
+        "pk": 2,
+        "fields": {
+            "name": "Frodo Baggins",
+            "aka": null,
+            "race": "Hobbit",
+            "description": "",
+            "picture": "character_pictures/frodo_baggins.webp",
+            "picture_credit": "\"Frodo Baggins\" by Matt Stewart"
+        }
+    },
+    {
+        "model": "middle_earth.character",
+        "pk": 3,
+        "fields": {
+            "name": "Meriadoc \"Merry\" Brandybuck",
+            "aka": null,
+            "race": "Hobbit",
+            "description": "",
+            "picture": "character_pictures/merry_brandybuck.jpg",
+            "picture_credit": "Master Holbytla\" by Jenny Dolfen"
+        }
+    },
+    {
+        "model": "middle_earth.character",
+        "pk": 4,
+        "fields": {
+            "name": "Peregrin \"Pippin\" Took",
+            "aka": null,
+            "race": "Hobbit",
+            "description": "",
+            "picture": "character_pictures/pippin_took.jpg",
+            "picture_credit": "\"Peregrin Took\" by Campbell White"
+        }
+    },
+    {
+        "model": "middle_earth.character",
+        "pk": 5,
+        "fields": {
+            "name": "Gandalf",
+            "aka": "Mithrandir",
+            "race": "Maiar",
+            "description": "",
+            "picture": "character_pictures/gandalf.webp",
+            "picture_credit": "Gandalf the Grey by John Howe"
+        }
+    },
+    {
+        "model": "middle_earth.character",
+        "pk": 6,
+        "fields": {
+            "name": "Narrator",
+            "aka": "J.R.R. Tolkien",
+            "race": "Other/Unknown",
+            "description": "",
+            "picture": "character_pictures/jrr_tolkien.jpg",
+            "picture_credit": "J.R.R. Tolkien"
+        }
+    },
+    {
+        "model": "middle_earth.character",
+        "pk": 7,
+        "fields": {
+            "name": "Elves",
+            "aka": "Vanyar, Eldar",
+            "race": "Elf",
+            "description": "",
+            "picture": "character_pictures/elves.jpg",
+            "picture_credit": "\"Vanyar\" by Janka Latečková"
+        }
+    },
+    {
+        "model": "middle_earth.character",
+        "pk": 8,
+        "fields": {
+            "name": "Tom Bombadil",
+            "aka": null,
+            "race": "Other/Unknown",
+            "description": "",
+            "picture": "character_pictures/tom_bombadil.jpg",
+            "picture_credit": "\"Tom Bombadil\" by John Howe"
+        }
+    },
+    {
+        "model": "middle_earth.character",
+        "pk": 9,
+        "fields": {
+            "name": "Goldberry",
+            "aka": null,
+            "race": "Other/Unknown",
+            "description": "Tom Bombadil's wife. Sometimes called the River Daughter.\r\nThere is some question as to what kind of character Goldberry is. She appears to be some kind of river spirit or nymph, but she is never identified explicitly (as far as I know).",
+            "picture": "character_pictures/goldberry.jpg",
+            "picture_credit": "\"Goldberry's Washing Day\" by Jenny Dolfen"
+        }
+    },
+    {
+        "model": "middle_earth.character",
+        "pk": 10,
+        "fields": {
+            "name": "Barrow Wight",
+            "aka": null,
+            "race": "Wight",
+            "description": "An unnamed barrow wight who captures Frodo, Sam, Merry, and Pippin",
+            "picture": "character_pictures/barrow_wight.jpg",
+            "picture_credit": "\"Barrow-Wights\" by John Howe"
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 1,
+        "fields": {
+            "text": "The Road goes ever on and on\r\n    Down from the door where it began. \r\nNow far ahead the Road has gone, \r\n    And I must follow, if I can, \r\nPursuing it with eager feet, \r\n    Until it joins some larger way \r\nWhere many paths and errands meet. \r\n    And whither then? I cannot say.",
+            "context": "After (quite literally) disappearing from the party celebrating his eleventy-first birthday, Bilbo Baggins repaired back to his hole to start his long-awaited journey. It seems that years of reflecting on his past adventures and the \"stretching\" effect of the Ring had made him restless. He was determined to go on one more adventure (and finish his book). He would leave everything at Bag End to his young cousin and heir, Frodo Baggins, including THE RING. After a struggle in which he fought the temptation to retain the Ring, he started off on his one final adventure (well, it turns out not to be the final but you'll need to read to the end of LOTR to find out why). There is a road to be walked. And he sings this song as he starts upon it.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "1",
+            "page": "36",
+            "speaker": [
+                1
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 2,
+        "fields": {
+            "text": "One Ring to rule them all, One Ring to find them, \r\nOne Ring to bring them all and in the darkness bind them.",
+            "context": "Shortly after Bilbo set off on the road out of the Shire, Frodo came back to Bag End to find Gandalf waiting. The Ring was in an envelope on the mantle, waiting for Frodo. By this time, Gandalf had grown suspicious of the Ring, fearing it to be something dark. He exhorted Frodo to hide the Ring and keep it safe. Then, Gandalf was off quite suddenly.\r\n\r\nIn following years, Gandalf would occasionally make appearance at Bag End to check in on Frodo. However, near Frodo's 50th birthday (Frodo was 33 when Bilbo stunned the crowd at his 111th birthday party and set off on his adventure), Gandalf returned, alarmed by what he had learned, or at least suspected about the Ring. After sharing some of what he'd learned about the suspected history and nature of the Ring, he asked Frodo to give it to him. He immediately threw it into the fire and then pulled it out and gave it to Frodo (it was \"quite cool\"). Strange writing appeared on the Ring which Frodo did not recognize. Gandalf, however, recognized it all too well: it was an ancient Elvish from Mordor. The writing translated to this verse in the Common Tongue. It was \"two lines of a verse long known in Elven-lore.\"",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "2",
+            "page": "50",
+            "speaker": [
+                5
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 3,
+        "fields": {
+            "text": "Three Rings for the Elven-kings under the sky, \r\n    Seven for the Dwarf-lords in their halls of stone,\r\nNine for Mortal Men doomed to die,\r\n    One for the Dark Lord on his dark throne\r\nIn the Land of Mordor where the Shadows lie.\r\n    One Ring to rule them all, One Ring to find them, \r\nOne Ring to bring them all and in the darkness bind them\r\n    In the Land of Mordor where the Shadows lie.",
+            "context": "The complete verse from which the two lines on the Ring was taken. This is an example of Tolkien using verse to convey history and lore. In a few lines we know of the rings and their bearers. We're not told the entire story, but now we want to know more.\r\n\r\nThis isn't actually spoken by any character. It is provided by the narrator (Tolkien) for context.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "2",
+            "page": "51",
+            "speaker": [
+                6
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 4,
+        "fields": {
+            "text": "The Road goes ever on and on\r\n    Down from the door where it began.\r\nNow far ahead the Road has gone,\r\n    And I must follow, if I can, \r\nPursuing it with weary feet, \r\n    Until it joins some larger way, \r\nWhere many paths and errands meet. \r\n    And whither then? I cannot say.",
+            "context": "Recited by Frodo after he, Sam, and Pippin started their journey. It's identical to Bilbo's version with one notable difference: instead of \"eager feet\" Frodo says \"weary feet\".",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "3",
+            "page": "73",
+            "speaker": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 5,
+        "fields": {
+            "text": "Upon the hearth the fire is red, \r\nBeneath the roof there is a bed; \r\nBut not yet weary are our feet, \r\nStill round the corner we may meet \r\nA sudden tree or standing stone \r\nThat none have seen but we alone. \r\n    Tree and flower and leaf and grass, \r\n    Let them pass! Let them pass! \r\n    Hill and water under sky, \r\n    Pass them by! Pass them by! \r\n  \r\nStill round the corner there may wait \r\nA new road or a secret gate, \r\nAnd though we pass them by today,\r\nTomorrow we may come this way \r\nAnd take the hidden paths that run \r\nTowards the Moon or to the Sun. \r\n    Apple, thorn, and nut and sloe, \r\n    Let them go! Let them go! \r\n    Sand and stone and pool and dell, \r\n    Fare you well! Fare you well! \r\n  \r\nHome is behind, the world ahead, \r\nAnd there are many paths to tread \r\nThrough shadows to the edge of night, \r\nUntil the stars are all alight. \r\nThen world behind and home ahead, \r\nWe’ll wander back to home and bed. \r\n    Mist and twilight, cloud and shade, \r\n    Away shall fade! Away shall fade! \r\n    Fire and lamp, and meat and bread, \r\n    And then to bed! And then to bed!",
+            "context": "A \"walking song\" composed by Bilbo Baggins and sung by Frodo Baggins as he, Merry, and Pippin traveled.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "3",
+            "page": "77",
+            "speaker": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 6,
+        "fields": {
+            "text": "Snow-white! Snow-white! \r\n    O Lady clear! O Queen beyond the Western Seas! \r\nO Light to us that wander here \r\n    Amid the world of woven trees! \r\n\r\nGilthoniel! O Elbereth! \r\n    Clear are thy eyes and bright thy breath! \r\nSnow-white! Snow-white! We sing to thee \r\n    In a far land beyond the Sea. \r\n\r\nO stars that in the Sunless Year \r\n    With shining hand by her were sown, \r\nIn windy fields now bright and clear \r\n    We see your silver blossom blown! \r\n  \r\nO Elbereth! Gilthoniel! \r\n    We still remember, we who dwell \r\nIn this far land beneath the trees, \r\n    Thy starlight on the Western Seas.",
+            "context": "Song sung by the first elves the Party meets while traveling. Frodo heard the song before ever seeing the elves.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "3",
+            "page": "79",
+            "speaker": [
+                7
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 7,
+        "fields": {
+            "text": "Ho! Ho! Ho! to the bottle I go \r\nTo heal my heart and drown my woe. \r\nRain may fall and wind may blow, \r\nAnd many miles be still to go, \r\nBut under a tall tree I will lie, \r\nAnd let the clouds go sailing by.",
+            "context": "Song sung by Frodo, Merry, and Pippin while traveling.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "4",
+            "page": "90",
+            "speaker": [
+                2,
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 8,
+        "fields": {
+            "text": "Sing hey! for the bath at close of day \r\nthat washes the weary mud away! \r\nA loon is he that will not sing: \r\nO! Water Hot is a noble thing! \r\n\r\nO! Sweet is the sound of falling rain, \r\nand the brook that leaps from hill to plain; \r\nbut better than rain or rippling streams \r\nis Water Hot that smokes and steams. \r\n\r\nO! Water cold we may pour at need \r\ndown a thirsty throat and be glad indeed; \r\nbut better is Beer, if drink we lack, \r\nand Water Hot poured down the back. \r\n\r\nO! Water is fair that leaps on high \r\nin a fountain white beneath the sky; \r\nbut never did fountain sound so sweet \r\nas splashing Hot Water with my feet!",
+            "context": "One of Bilbo's \"bath songs\" sung by Pippin while he, Sam, and Frodo took a bath at Frodo's house is Crickhollow.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "5",
+            "page": "101",
+            "speaker": [
+                4
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 9,
+        "fields": {
+            "text": "Farewell we call to hearth and hall!\r\nThough wind may blow and rain may fall, \r\nWe must away ere break of day \r\nFar over wood and mountain tall. \r\n\r\nTo Rivendell, where Elves yet dwell \r\nIn glades beneath the misty fell, \r\nThrough moor and waste we ride in haste, \r\nAnd whither then we cannot tell.\r\n\r\nWith foes ahead, behind us dread, \r\nBeneath the sky shall be our bed, \r\nUntil at last our toil be passed, \r\nOur journey done, our errand sped. \r\n\r\nWe must away! We must away! \r\nWe ride before the break of day!",
+            "context": "Song sung at the Crickhollow house after Sam, Merry, and Pippin reveal their conspiracy to accompany Frodo.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "5",
+            "page": "106",
+            "speaker": [
+                3,
+                4
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 10,
+        "fields": {
+            "text": "O! Wanderers in the shadowed land \r\ndespair not! For though dark they stand, \r\nall woods there be must end at last, \r\nand see the open sun go past: \r\nthe setting sun, the rising sun, \r\nthe day’s end, or the day begun. \r\nFor east or west all woods must fail …",
+            "context": "Song sung by Frodo while he, Merry, Sam, and Pippin walked through the Dark Forest. He meant it as a song of encouragement but \"his voice sank to a murmur\"",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "6",
+            "page": "113",
+            "speaker": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 12,
+        "fields": {
+            "text": "Hey! Come merry dol! derry dol! My darling! \r\nLight goes the weather-wind and the feathered starling. \r\nDown along under Hill, shining in the sunlight, \r\nWaiting on the doorstep for the cold starlight, \r\nThere my pretty lady is, River-woman’s daughter, \r\nSlender as the willow-wand, clearer than the water. \r\nOld Tom Bombadil water-lilies bringing \r\nComes hopping home again. Can you hear him singing? \r\nHey! Come merry dol! derry dol! and merry-o, \r\nGoldberry, Goldberry, merry yellow berry-o! \r\nPoor old Willow-man, you tuck your roots away! \r\nTom’s in a hurry now. Evening will follow day. \r\nTom’s going home again water-lilies bringing. \r\nHey! Come derry dol! Can you hear me singing?",
+            "context": "Song heard by Frodo and company just before seeing Tom Bombadil in the Dark Forest.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "6",
+            "page": "120",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 13,
+        "fields": {
+            "text": "Hey dol! merry dol! ring a dong dillo! \r\nRing a dong! hop along! fal lal the willow! \r\nTom Bom, jolly Tom, Tom Bombadillo!",
+            "context": "Part of a song that Frodo and Company heard while despairing in the Dark Forest, the first thing they ever heard Tom Bombadil say.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "6",
+            "page": "120",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 14,
+        "fields": {
+            "text": "Hop along, my little friends, up the Withywindle! \r\nTom’s going on ahead candles for to kindle. \r\nDown west sinks the Sun: soon you will be groping. \r\nWhen the night-shadows fall, then the door will open, \r\nOut of the window-panes light will twinkle yellow. \r\nFear no alder black! Heed no hoary willow! \r\nFear neither root nor bough! Tom goes on before you. \r\nHey now! merry dol! We’ll be waiting for you!",
+            "context": "Song sung by Tom Bombadil as he leads the company to his home.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "6",
+            "page": "122",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 15,
+        "fields": {
+            "text": "Now let the song begin! Let us sing together \r\nOf sun, stars, moon and mist, rain and cloudy weather, \r\nLight on the budding leaf, dew on the feather, \r\nWind on the open hill, bells on the heather, \r\nReeds by the shady pool, lilies on the water: \r\nOld Tom Bombadil and the River-daughter!",
+            "context": "As the company approached Tom Bombadil's house, they heard a new voice, singing this song to greet them. It was sung by Tom Bombadil's wife, Goldberry.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "6",
+            "page": "123",
+            "speaker": [
+                9
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 16,
+        "fields": {
+            "text": "Hey! Come derry dol! Hop along, my hearties! \r\nHobbits! Ponies all! We are fond of parties. \r\nNow let the fun begin! Let us sing together!",
+            "context": "Song sung by Tom Bombadil as the company approached his house.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "6",
+            "page": "123",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 17,
+        "fields": {
+            "text": "O slender as a willow-wand! O clearer than clear water! \r\nO reed by the living pool! Fair River-daughter! \r\nO spring-time and summer-time, and spring again after! \r\nO wind on the waterfall, and the leaves’ laughter!",
+            "context": "When entering Tom Bombadil's house and greeting by Goldberry, Frodo was enchanted by Goldberry and recited this verse, much to his own surprise. To that, Goldberry responds, \"I had not heard that folk of the Shire were so sweet-tongued. But I see that you are an Elf-friend; the light in your eyes and the ring in your voice tells it.\"  \r\n\r\nThough not technically a \"recitation\" as he seems to have spoken extemporaneously, Tolkien presented as a verse.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "7",
+            "page": "125",
+            "speaker": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 18,
+        "fields": {
+            "text": "Old Tom Bombadil is a merry fellow; \r\nBright blue his jacket is, and his boots are yellow.",
+            "context": "While sitting in Tom Bombadil's house, the company would hear Tom Bombadil singing this while doing something else in another part of the house.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "7",
+            "page": "125",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 19,
+        "fields": {
+            "text": "I had an errand there: gathering water-lilies, \r\ngreen leaves and lilies white to please my pretty lady, \r\nthe last ere the year’s end to keep them from the winter, \r\nto flower by her pretty feet till the snows are melted. \r\nEach year at summer’s end I go to find them for her, \r\nin a wide pool, deep and clear, far down Withywindle; \r\nthere they open first in spring and there they linger latest. \r\nBy that pool long ago I found the River-daughter, \r\nfair young Goldberry sitting in the rushes. \r\nSweet was her singing then, and her heart was beating!\r\n\r\nAnd that proved well for you – for now I shall no longer \r\ngo down deep again along the forest-water,\r\nnot while the year is old. Nor shall I be passing \r\nOld Man Willow’s house this side of spring-time, \r\nnot till the merry spring, when the River-daughter \r\ndances down the withy-path to bathe in the water.",
+            "context": "After eating dinner their first night in Tom Bombadil's house, the company along with Tom sat by the fire. Tom seemed to be nodding off to sleep, but he sang this song. It speaks of his first meeting Goldberry.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "7",
+            "page": "127",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 20,
+        "fields": {
+            "text": "Ho! Tom Bombadil, Tom Bombadillo! \r\nBy water, wood and hill, by the reed and willow, \r\nBy fire, sun and moon, harken now and hear us! \r\nCome, Tom Bombadil, for our need is near us!",
+            "context": "The night before the company leaves Tom Bombadil's home to continue their journey, Tom offers them advice on the coming trip. \"Then he taught them a rhyme to sing, if they should by ill-luck fall into any danger or difficulty the next day.\" As it turns out, they will use this verse after being captured by Barrow wights.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "7",
+            "page": "135",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 21,
+        "fields": {
+            "text": "Cold be hand and heart and bone, \r\nand cold be sleep under stone: \r\nnever more to wake on stony bed, \r\nnever, till the Sun fails and the Moon is dead. \r\nIn the black wind the stars shall die, \r\nand still on gold here let them lie, \r\ntill the dark lord lifts his hand \r\nover dead sea and withered land.",
+            "context": "While held inside a barrow after being capture by a barrow wight, Frodo heard what he first thought to be a song, but then \"perceived that it had changed into an incantation.\"",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "8",
+            "page": "142",
+            "speaker": [
+                10
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 22,
+        "fields": {
+            "text": "Ho! Tom Bombadil, Tom Bombadillo!\r\nBy water, wood and hill, by the reed and willow, \r\nBy fire, sun and moon, harken now and hear us! \r\nCome, Tom Bombadil, for our need is near us!",
+            "context": "While still being held by the barrow wight, \"All at once back into his mind, from which it had disappeared with the first coming of the fog, came the memory of the house down under the Hill, and of Tom singing. He remembered the rhyme that Tom had taught them. In a small desperate voice he began:\"",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "8",
+            "page": "143",
+            "speaker": [
+                2
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 23,
+        "fields": {
+            "text": "Old Tom Bombadil is a merry fellow, \r\nBright blue his jacket is, and his boots are yellow. \r\nNone has ever caught him yet, for Tom, he is the master: \r\nHis songs are stronger songs, and his feet are faster.",
+            "context": "After reciting the rhyme Tom Bombadil taught him should they fall into trouble, \"There was a sudden deep silence, in which Frodo could hear his heart beating. After a long slow moment he heard plain, but far away, as if it was coming down through the ground or through thick walls, an answering voice singing:\"",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "8",
+            "page": "143",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 24,
+        "fields": {
+            "text": "Get out, you old Wight! Vanish in the sunlight! \r\nShrivel like the cold mist, like the winds go wailing,\r\nOut into the barren lands far beyond the mountains! \r\nCome never here again! Leave your barrow empty! \r\nLost and forgotten be, darker than the darkness, \r\nWhere gates stand for ever shut, till the world is mended.",
+            "context": "After being summoned by Frodo's cry for help, Tom Bombadil banishes the wight holding the company with this verse. Then, \"At these words there was a cry and part of the inner end of the chamber fell in with a crash. Then there was a long trailing shriek, fading away into an unguessable distance; and after that silence.\"",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "8",
+            "page": "143",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 25,
+        "fields": {
+            "text": "Wake now my merry lads! Wake and hear me calling! \r\nWarm now be heart and limb! The cold stone is fallen; \r\nDark door is standing wide; dead hand is broken.\r\nNight under Night is flown, and the Gate is open!",
+            "context": "After being rescued from the barrow wight by Tom Bombadil, Sam, Merry, and Pippin were laid on the grass outside the barrow, still unconscious. Tom sang this song to revive them. \"To Frodo’s great joy the hobbits stirred, stretched their arms, rubbed their eyes, and then suddenly sprang up. They looked about in amazement, first at Frodo, and then at Tom standing large as life on the barrow-top above them; and then at themselves in their thin white rags, crowned and belted with pale gold, and jingling with trinkets.\"",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "8",
+            "page": "144",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 26,
+        "fields": {
+            "text": "Hey! now! Come hoy now! Whither do you wander? \r\nUp, down, near or far, here, there or yonder? \r\nSharp-ears, Wise-nose, Swish-tail and Bumpkin, \r\nWhite-socks my little lad, and old Fatty Lumpkin!",
+            "context": "After rescuing the company from the barrow wight, Tom Bombadil leaves them for a while, singing this song as he departs. He returns to them with the company's five ponies and one of his own, Fatty Lumpkin.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "8",
+            "page": "145",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 27,
+        "fields": {
+            "text": "Tom’s country ends here: he will not pass the borders. \r\nTom has his house to mind, and Goldberry is waiting!",
+            "context": "After recuperating from the barrow wight captivity, the company continues toward the East Road, accompanied by Tom, riding Fatty Lumpkin. As they near their destination (Bree), the company begs Tom to at least come as far as the inn in Bree for a drink, but he declines, saying these lines.",
+            "book": "FR",
+            "sub_book": "I",
+            "chapter": "8",
+            "page": "149",
+            "speaker": [
+                8
+            ]
+        }
+    },
+    {
+        "model": "middle_earth.verse",
+        "pk": 29,
+        "fields": {
+            "text": "Eärendil was a mariner \r\nthat tarried in Arvernien; \r\nhe built a boat of timber felled \r\nin Nimbrethil to journey in; \r\nher sails he wove of silver fair, \r\nof silver were her lanterns made, \r\nher prow he fashioned like a swan, \r\nand light upon her banners laid. \r\n\r\nIn panoply of ancient kings, \r\nin chainéd rings he armoured him; \r\nhis shining shield was scored with runes \r\nto ward all wounds and harm from him;\r\nhis bow was made of dragon-horn, \r\nhis arrows shorn of ebony, \r\nof silver was his habergeon, \r\nhis scabbard of chalcedony; \r\nhis sword of steel was valiant, \r\nof adamant his helmet tall, \r\nan eagle-plume upon his crest, \r\nupon his breast an emerald. \r\n\r\nBeneath the Moon and under star \r\nhe wandered far from northern strands, \r\nbewildered on enchanted ways \r\nbeyond the days of mortal lands. \r\nFrom gnashing of the Narrow Ice \r\nwhere shadow lies on frozen hills, \r\nfrom nether heats and burning waste \r\nhe turned in haste, and roving still \r\non starless waters far astray \r\nat last he came to Night of Naught, \r\nand passed, and never sight he saw \r\nof shining shore nor light he sought. \r\nThe winds of wrath came driving him, \r\nand blindly in the foam he fled \r\nfrom west to east, and errandless, \r\nunheralded he homeward sped. \r\n\r\nThere flying Elwing came to him, \r\nand flame was in the darkness lit; \r\nmore bright than light of diamond\r\nthe fire upon her carcanet. \r\nThe Silmaril she bound on him \r\nand crowned him with the living light, \r\nand dauntless then with burning brow \r\nhe turned his prow; and in the night \r\nfrom Otherworld beyond the Sea \r\nthere strong and free a storm arose, \r\na wind of power in Tarmenel; \r\nby paths that seldom mortal goes \r\nhis boat it bore with biting breath \r\nas might of death across the grey \r\nand long-forsaken seas distressed: \r\nfrom east to west he passed away. \r\n\r\nThrough Evernight he back was borne \r\non black and roaring waves that ran \r\no’er leagues unlit and foundered shores \r\nthat drowned before the Days began, \r\nuntil he heard on strands of pearl \r\nwhere ends the world the music long, \r\nwhere ever-foaming billows roll \r\nthe yellow gold and jewels wan. \r\nHe saw the Mountain silent rise \r\nwhere twilight lies upon the knees \r\nof Valinor, and Eldamar \r\nbeheld afar beyond the seas. \r\nA wanderer escaped from night \r\nto haven white he came at last, \r\nto Elvenhome the green and fair\r\nwhere keen the air, where pale as glass \r\nbeneath the Hill of Ilmarin \r\na-glimmer in a valley sheer \r\nthe lamplit towers of Tirion \r\nare mirrored on the Shadowmere. \r\n\r\nHe tarried there from errantry, \r\nand melodies they taught to him, \r\nand sages old him marvels told, \r\nand harps of gold they brought to him. \r\nThey clothed him then in elven-white, \r\nand seven lights before him sent, \r\nas through the Calacirian \r\nto hidden land forlorn he went. \r\nHe came unto the timeless halls \r\nwhere shining fall the countless years, \r\nand endless reigns the Elder King \r\nin Ilmarin on Mountain sheer; \r\nand words unheard were spoken then \r\nof folk of Men and Elven-kin, \r\nbeyond the world were visions showed \r\nforbid to those that dwell therein. \r\n\r\nA ship then new they built for him \r\nof mithril and of elven-glass \r\nwith shining prow; no shaven oar \r\nnor sail she bore on silver mast: \r\nthe Silmaril as lantern light \r\nand banner bright with living flame\r\nto gleam thereon by Elbereth \r\nherself was set, who thither came \r\nand wings immortal made for him, \r\nand laid on him undying doom, \r\nto sail the shoreless skies and come \r\nbehind the Sun and light of Moon. \r\n\r\nFrom Evereven’s lofty hills \r\nwhere softly silver fountains fall \r\nhis wings him bore, a wandering light, \r\nbeyond the mighty Mountain Wall. \r\nFrom World’s End then he turned away, \r\nand yearned again to find afar \r\nhis home through shadows journeying, \r\nand burning as an island star \r\non high above the mists he came, \r\na distant flame before the Sun, \r\na wonder ere the waking dawn \r\nwhere grey the Norland waters run. \r\n\r\nAnd over Middle-earth he passed \r\nand heard at last the weeping sore \r\nof women and of elven-maids \r\nin Elder Days, in years of yore. \r\nBut on him mighty doom was laid, \r\ntill Moon should fade, an orbéd star \r\nto pass, and tarry never more \r\non Hither Shores where mortals are; \r\nfor ever still a herald on\r\nan errand that should never rest \r\nto bear his shining lamp afar, \r\nthe Flammifer of Westernesse.",
+            "context": "Bilbo singing in Elrond's house.",
+            "book": "FR",
+            "sub_book": "II",
+            "chapter": "1",
+            "page": null,
+            "speaker": [
+                1
+            ]
+        }
+    }
+]

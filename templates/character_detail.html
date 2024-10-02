@@ -1,0 +1,39 @@
+{% extends "_base.html" %}
+
+{% block title %}{{ character.name }}{% endblock title %}
+
+{% block content %}
+
+<h1 class="display-5">{{ character.name }}</h1>
+<p>{% if character.aka %}Also Known As: {{ character.aka }}<br>{% endif %}
+    Race: {{ character.race }}<br>
+</p>
+<div class="row">
+    <div class="col-7">
+        {{ character.description|linebreaks }}<br>
+        <h1 class="display-6">Verses from this character:</h1>
+        <ul>
+            {% for verse in verses %}
+                <li><a href="{% url 'verse_detail' verse.id %}">{{ verse.blurb }}</a><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;<span class="title">{{ verse.get_book_display }},</span> {% if verse.sub_book %}Book {{ verse.sub_book }}, {% endif %}Chapter {{verse.chapter }}, Page {{ verse.page }}</li>
+            {% empty %}
+                <li>No verses from this character</li>
+            {% endfor %}
+        </ul>
+    </div>
+    <div class="col-1"></div>
+    <div class="col">
+        {% if character.picture %}
+            <figure>
+                <img class="img-thumbnail" src="{{ character.picture.url }}" alt="{{ character.picture_credit }}">
+                <figcaption style="font-style: italic;">{{ character.picture_credit }}</figcaption>
+            </figure>    
+        {% endif %}
+    </div>
+    <div class="col-1"></div>
+</div>
+
+
+  <p><a href="{% url 'characters_list' %}">Back to full list of characters</a></p>
+
+{% endblock content %} %
