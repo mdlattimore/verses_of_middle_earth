@@ -23,8 +23,8 @@ default="django-insecure-0peo@#x9jur3!h$ryje!$879xww8y1y66jx!%*#ymhg&jkozs2",
 DEBUG = env.bool("DEBUG", default=False) # new
 
 # https://docs.djangoproject.com/en/dev/ref/settings/#allowed-hosts
-ALLOWED_HOSTS = ["*"]
-CSRF_TRUSTED_ORIGINS = ["https://*.fly.dev"]
+ALLOWED_HOSTS = ["verses-of-middle-earth.fly.dev", "localhost", "127.0.0.1"]
+CSRF_TRUSTED_ORIGINS = ["https://verses-of-middle-earth.fly.dev"]
 
 # Application definition
 # https://docs.djangoproject.com/en/dev/ref/settings/#installed-apps
