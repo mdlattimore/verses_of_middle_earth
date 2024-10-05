@@ -18,7 +18,10 @@
 {{ verse.context }}</p>
 <footer class="footer mt-auto py-3">
       <span class="text-muted">Page numbers are taken from: <br> 
-        {% if verse.book == 'FR' %}Tolkien, J. R. R. 2021. <span class="title">The Lord of the Rings Illustrated</span>. William Morrow & Company.{% endif %}</span>
+        {% if verse.book == 'FR' %}Tolkien, J. R. R. 2021. <span class="title">The Lord of the Rings Illustrated</span>. William Morrow & Company.
+        {% elif verse.book == "SI" %}
+        Tolkien, J.R.R. <cite>The Silmarillion Illustrated by J.R.R. Tolkien</cite>. William Morrow, 2022.
+        {% endif %}</span>
   </footer>
   <br>
   <p><a href="{% url 'verses_list' %}">Back to full list of verses</a></p>
