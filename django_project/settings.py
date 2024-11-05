@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     "allauth.account",
     "crispy_forms",
     "crispy_bootstrap5",
+    "django_admin_tui",
     # "debug_toolbar",
     # Local
     "accounts",

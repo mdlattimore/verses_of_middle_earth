@@ -1,0 +1,16 @@
+{% extends "_base.html" %}
+
+{% block title %}{{ block.super }}: Verses{% endblock title %}
+
+{% block content %}
+
+<h1 class="display-6">Verses of Middle Earth</h1>
+
+{% for verse in verses_by_book %}
+
+    <p><a href="{% url 'verse_detail' verse.id %}" style="color: black">{{ verse.blurb }} ...</a><br>
+    <span class="text-muted">&nbsp;&nbsp;&nbsp;&nbsp;&#8212; {% for name in verse.speaker.all %}{{ name }}, {% endfor %} <span class="title">{{ verse.get_book_display }},</span> {% if verse.sub_book %}Book {{ verse.sub_book }}, {% endif %}Chapter {{verse.chapter }}, Page {{ verse.page }}</span></p>
+
+{% endfor %}
+
+{% endblock content %}

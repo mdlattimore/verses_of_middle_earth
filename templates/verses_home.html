@@ -1,0 +1,17 @@
+{% extends "_base.html" %}
+
+{% block title %}{{ block.super }}: Verses{% endblock title %}
+
+{% block content %}
+
+<h1 class="display-6">Verses of Middle Earth</h1>
+<p>To see a complete list of all verses in this collection, click <a href="{% url 'verses_list' %}">Here</a></p><br>
+<p>Or, you may view a list of verses by book by clicking below:</p>
+<p><a href="{% url 'verses_by_book' %}?book=SI"><em>The Silmarillion</em></a></p>
+<p><a href="{% url 'verses_by_book' %}?book=HO"><em>The Hobbit</em></a></p>
+<p><a href="{% url 'verses_by_book' %}?book=FR"><em>The Fellowship of the Ring</em></a></p>
+<p><a href="{% url 'verses_by_book' %}?book=TO"><em>The Two Towers</em></a></p>
+<p><a href="{% url 'verses_by_book' %}?book=RK"><em>The Return of the King</em></a></p>
+
+
+{% endblock content %}

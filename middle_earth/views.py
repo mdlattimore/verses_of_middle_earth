@@ -3,6 +3,29 @@ from django.views.generic import ListView, DetailView, TemplateView
 from .models import Verse, Character
 
 
+class VersesByBook(ListView):
+    model = Verse
+    template_name = "verses_by_book.html"
+    context_object_name = "verses_by_book"
+
+    def get_queryset(self):
+        queryset = super().get_queryset()
+        # Get the query parameter, for example 'category' or 'status'
+        filter_param = self.request.GET.get('book')  # Replace 'filter_param' with your actual parameter name
+        print(filter_param)
+        
+        if filter_param:
+            queryset = queryset.filter(book=filter_param)  # Adjust filtering as needed for your model
+            print(queryset)
+        
+        return queryset
+
+
+
+class VersesHomeView(TemplateView):
+    template_name = "verses_home.html"
+
+
 class VersesListView(ListView):
     model = Verse
     template_name = "verses_list.html"
