@@ -7,6 +7,8 @@ class VersesByBook(ListView):
     model = Verse
     template_name = "verses_by_book.html"
     context_object_name = "verses_by_book"
+    ordering = ['book', 'sub_book', 'chapter', 'page']
+
 
     def get_queryset(self):
         queryset = super().get_queryset()
