@@ -1,4 +1,6 @@
 {% extends "_base.html" %}
+{% load custom_filters %}
+{% load static %}
 
 {% block title %}{{ verse.blurb }}{% endblock title %}
 
@@ -7,7 +9,7 @@
 <p style="font-size: 1.25rem;">Verse</p>
 <figure>
     <blockquote class="blockquote">
-        <pre><span class="verse-display">{{ verse.text }}</span></pre>
+        <pre><span class="verse-display">{{ verse.text|add_tooltips|safe }}</span></pre>
     </blockquote>
     <figcaption class="blockquote-footer py-2 px-2" style="font-size: .9rem;">
         Recited by {% for name in verse.speaker.all %}<a href="{% url 'character_detail' name.id %}" style="color: black;">{{ name }}</a>, {% endfor %}in <span class="title">{{ verse.get_book_display }},</span> {% if verse.sub_book %}Book {{ verse.sub_book }}, {% endif %}Chapter {{verse.chapter }}, Page {{ verse.page }}
@@ -25,5 +27,7 @@
   </footer>
   <br>
   <p><a href="{% url 'verses_list' %}">Back to full list of verses</a></p>
+
+  <script src="{% static 'js/tippyjs.js' %}"></script>
 
 {% endblock content %}

@@ -67,7 +67,7 @@ class Verse(models.Model):
     SILMARILLION = "SI"
     HOBBIT = "HO"
     FELLOWSHIP = "FR"
-    TOWERS = "TO"
+    TOWERS = "TT"
     KING = "RK"
     UNFINISHED = "UT"
     CHILDREN = "CH"

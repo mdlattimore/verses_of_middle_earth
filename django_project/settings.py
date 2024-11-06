@@ -1,5 +1,5 @@
 from pathlib import Path
-from environs import Env
+from environs import Env # type: ignore
 
 env = Env()
 env.read_env()

@@ -1,9 +1,8 @@
 from django.contrib import admin
 from django.urls import path
-from .views import VersesListView, VerseDetailView, CharactersListView, CharacterDetailView, BibliographyView, VersesHomeView, VersesByBook
+from .views import VersesListView, VerseDetailView, CharactersListView, CharacterDetailView, BibliographyView, VersesByBook
 
 urlpatterns = [
-    path('verses_home', VersesHomeView.as_view(), name="verses_home"),
     path('verses_verses_by_book/', VersesByBook.as_view(), name="verses_by_book"),
     path('verses_list/', VersesListView.as_view(), name="verses_list"),
     path('verse_detail/<int:pk>/', VerseDetailView.as_view(), name="verse_detail"),

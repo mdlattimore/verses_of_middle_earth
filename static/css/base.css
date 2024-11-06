@@ -16,6 +16,11 @@ img.bookcover {
   font-size: 1rem;
 }
 
+.verse-display span {
+  border-bottom: 1px dotted;  /* Just to make it clear it’s interactive */
+  cursor: help;
+}
+
 .title {
   font-style: italic;
 }
@@ -56,3 +61,4 @@ blockquote {
   padding-right: 5%;
   font-style: italic;
 }
+

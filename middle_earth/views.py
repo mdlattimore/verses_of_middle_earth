@@ -21,11 +21,6 @@ class VersesByBook(ListView):
         return queryset
 
 
-
-class VersesHomeView(TemplateView):
-    template_name = "verses_home.html"
-
-
 class VersesListView(ListView):
     model = Verse
     template_name = "verses_list.html"
