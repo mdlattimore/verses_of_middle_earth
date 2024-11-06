@@ -1,5 +1,7 @@
 from django.db import models
 from django.urls import reverse
+from .templatetags import custom_filters
+from django.utils.html import format_html
 
 class Character(models.Model):
     class Meta:
@@ -105,7 +107,9 @@ class Verse(models.Model):
     @property
     def blurb(self):
         # Split the text at the first line break and return the first line.
-        return self.text.split('\n', 1)[0]
+        first_line = self.text.split('\n', 1)[0]
+        blurb_text = custom_filters.add_tooltips(first_line)
+        return format_html(blurb_text) 
     
 
 class Place(models.Model):
