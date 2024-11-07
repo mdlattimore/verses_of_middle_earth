@@ -2,6 +2,7 @@ from django.db import models
 from django.urls import reverse
 from .templatetags import custom_filters
 from django.utils.html import format_html
+import re
 
 class Character(models.Model):
     class Meta:
@@ -108,8 +109,21 @@ class Verse(models.Model):
     def blurb(self):
         # Split the text at the first line break and return the first line.
         first_line = self.text.split('\n', 1)[0]
+        # filter text through tooltips to remove markup from list view
         blurb_text = custom_filters.add_tooltips(first_line)
         return format_html(blurb_text) 
+    
+    @property
+    def plain_blurb(self):
+        """Doesn't add the html that the 'blurb' property does
+        and strips the annotation markup ({{...|...}})"""
+        # Get the first line of the text
+        first_line = self.text.split('\n', 1)[0]
+        
+        # Remove any {{...|...}} patterns (tooltip syntax) using regex
+        plain_text = re.sub(r'\{\{(.*?)\|(.*?)\}\}', r'\1', first_line)
+        
+        return plain_text
     
 
 class Place(models.Model):

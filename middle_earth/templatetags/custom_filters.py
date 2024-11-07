@@ -13,7 +13,7 @@ def add_tooltips(text):
     def replace_with_tooltip(match):
         word = match.group(1)  # The word to display
         definition = match.group(2)  # The definition for the tooltip
-        return f'<span data-tippy-content="{definition}">{word}</span>'
+        return f'<span class="tooltip-text" data-tippy-content="{definition}">{word}</span>'
 
     # Substitute all occurrences in the text
     return re.sub(pattern, replace_with_tooltip, text)
